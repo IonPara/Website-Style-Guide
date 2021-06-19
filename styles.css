@@ -1,0 +1,124 @@
+body {
+  background-color:rgb(172, 165, 165);
+  
+}
+
+a {
+    color:black;
+}
+
+#main {
+    text-align: center;
+    font-family:'Staatliches', cursive;
+
+}
+
+#nav1 {
+    margin-left: 40%;
+
+}
+
+.nav li {
+   display: inline-block;
+   list-style-type: none;
+   font-size: 18px;
+   padding: 5px;
+   border: 1px solid black;
+   font-family: 'Libre Baskerville', serif;
+   margin-right: 5px;
+   
+}
+
+#colors , #fonts, #text {
+    /*border: 2px solid black;*/
+     padding-left: 5px;
+     margin: 20px;
+     background-color: white;
+     
+}
+
+.colors  {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0 0 30px 100px;
+    padding-left: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+#ice {
+    background-color: rgb(127, 255, 244);
+}
+
+#dark {
+    background-color:black;
+    color: whitesmoke;
+}
+
+#grey {
+    background-color: rgba(128, 128,128, 0.774)
+}
+
+#blue {
+    background-color: blue;
+}
+
+
+
+.staat {
+    font-family: 'Staatliches', cursive;
+    font-style: 400;
+    
+}
+
+.benne {
+    font-family: 'Benne', serif;
+}
+
+.libre {
+    font-family: 'Libre Baskerville', serif;
+    font-style: 700;
+}
+
+.italic {
+    
+    font-style: italic;
+}
+
+.bold {
+    font-style: bold;
+}
+
+.benne, .staat, .libre {
+    display: inline-block;
+    margin: 0 0 20px 60px;
+    font-size: 18px;
+}
+
+#text {
+    font-size: 18px;
+}
+
+.box1 {
+    color: red;
+}
+
+.box2 {
+    color:blue;
+}
+
+.box3 {
+    color:blueviolet;
+} 
+
+#nav1 {
+    background-color: red;
+}
+
+#nav2 {
+    background-color: blue;
+}
+
+#nav3 {
+    background-color: blueviolet;
+}
