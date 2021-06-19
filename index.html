@@ -3,15 +3,78 @@
     <head>
         <title>My Website Style Guide</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Benne&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Staatliches&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1></h1>
+        <h1 id="main">My Website Style Guide</h1>
         <nav>
-            <ul>
-                <li>Colors</li>
-                <li>Fonts</li>
-                <li>Text Styles</li>
+            <ul class="nav">
+                <li id="nav1"><a href="#colors"> Colors</a></li>
+                <li id="nav2"><a href="#fonts">Fonts</a></li>
+                <li id="nav3"><a href="#text">Text Styles</a></li>
             </ul>
         </nav>
+        <div id="colors">
+            <h2 class="box1">Colors</h2>
+            <div class="colors" id="ice">
+                <h4>Ice Blue</h4>
+                <h4>rgb(127, 255, 244)</h4>
+            </div>
+            <div class="colors" id="dark">
+                <h4>Dark</h4>
+                <h4>rgb(0, 0 , 0)</h4>
+            </div>
+            <div class="colors" id="grey">
+                <h4>Grey</h4>
+                <h4>rgba(128, 128, 128, 0.774)</h4>
+            </div>
+            <div class="colors" id="blue">
+                <h4>Blue</h4>
+                <h4>rgb(0, 0, 255)</h4>
+            </div>
+        </div>
+        <div id="fonts">
+           <h2 class="box2">Fonts</h2>
+           <div  class="staat">
+              <h3><a href="https://fonts.google.com/specimen/Staatliches#standard-styles">Staatliches</a></h3>
+              <p>The quick brown fox jumps over the lazy dog.</p>
+              <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+              <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+           </div>
+           <div class="benne">
+               <h3><a href="https://fonts.google.com/specimen/Benne?query=ben">Benne</a></h3>
+               <p>The quick brown fox jumps over the lazy dog.</p>
+               <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+               <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+           </div>
+           <div  class="libre">
+            <h3><a href="https://fonts.google.com/specimen/Libre+Baskerville?query=libre">Libre Baskerville</a></h3>
+            <p>The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+          </div>
+        </div>
+        <div id="text">
+            <h2 class="box3">Text Styles</h2>
+            <h1>H1: Main Page Headings:</h1>
+            <ul>
+                <li>Font-Family: Staatliches, cursive</li>
+                <li>Font-Weight: Bold 700</li>
+                <li>Font-Size: 26px</li>
+            </ul>
+            <h2>H2: Subheading</h2>
+            <ul>
+                <li>Font-Family: Libre Baskerville, serif</li>
+                <li>Font-Weight: Regular 400</li>
+                <li>Font-Size: 18px</li>
+            </ul>
+            <h3>Paragraphs</h3>
+            <ul>
+                <li>Font-Family: Benne</li>
+                <li>Font-Weight: Regular 400</li>
+                <li>Font-Size: 14px</li>
+            </ul>
+        </div>
     </body>
 </html>
