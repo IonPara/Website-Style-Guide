@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(172, 165, 165);
+  background-color:azure;
   
 }
 
@@ -30,10 +30,12 @@ a {
 }
 
 #colors , #fonts, #text {
-    /*border: 2px solid black;*/
+    width: 90%;
      padding-left: 5px;
      margin: 20px;
+     margin-left: 100px;
      background-color: white;
+     border: 2px solid grey;
      
 }
 
@@ -97,28 +99,37 @@ a {
 
 #text {
     font-size: 18px;
+    padding-bottom: 30px;;
 }
 
 .box1 {
-    color: red;
-}
-
-.box2 {
     color:blue;
 }
 
+.box2 {
+    color: rgb(14, 202, 187);
+}
+
 .box3 {
-    color:blueviolet;
+    color: grey;
 } 
 
 #nav1 {
-    background-color: red;
+    background-color:blue;
 }
 
 #nav2 {
-    background-color: blue;
+    background-color:rgb(127, 255, 244);
 }
 
 #nav3 {
-    background-color: blueviolet;
+    background-color: grey;
+}
+
+footer {
+    color: black;
+    height: 100px;
+    text-align: right;
+    font-size: 18px;
+    margin-right: 60px;
 }
